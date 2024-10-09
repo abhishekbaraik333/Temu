@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+  
+
+
+</head>
+
+<body>
+    <main class="h-[100vh] w-full">
+        <div class="h-full w-full flex items-center justify-center px-2">
+
+            <div class="lg:w-[70%] w-full h-[90%] md:h-fit bg-white rounded-xl shadow-xl flex flex-col lg:flex-row lg:gap-5 gap-1 relative">
+                <img src="./images/retro style lady.avif" class="floating-image absolute top-[14rem] lg:-top-32 lg:-left-20 -left-2 rounded-full z-[100] w-[80px] h-[80px] lg:w-[200px] lg:h-[200px] bg-cover object-cover" alt="">
+                <div class="product-container lg:w-1/2 h-full p-2 lg:p-4">
+                    <div class="swiper-container relative">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img src="./images/0ae2509f-f987-4868-9b80-8b8010bd278c.webp" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/d403c645-3de8-4de4-b72f-598119f7b7c0.webp" alt="">
+                            </div>
+                            <div class="swiper-slide"><img src="./images/e668f053-f0eb-4fbc-b98c-5e32135cc16f.webp" alt=""></div>
+                            <div class="swiper-slide"><img src="./images/edea94ea-1c71-4852-ae27-da4fd5c7acd8.webp" alt=""></div>
+                            <div class="swiper-slide"><img src="./images/seamless-loop-recording.webp" alt=""></div>
+                            <div class="swiper-slide"><img src="./images/product-size.webp" alt=""></div>
+                            <div class="swiper-slide"><img src="./images/front-back-angle.webp" alt=""></div>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+
+                    </div>
+
+                </div>
+                <div class="product-info p-2 lg:p-5 flex flex-col justify-between">
+                    <div>
+                        <h1 class="text-lg lg:text-3xl text-[#FF8F03]">Uncover incredible deals and embrace a seamless shopping spree on Temu! 😊</h1>
+                        <h2 class="text-lg lg:text-2xl text-[#F6DD00] mt-5 lg:mt-10">🎉 Exclusive deal -> [$1.64] (97% off) 
+                        </h2>
+                        <h3 class="text-[#E4CF02] mt-3 text-sm">⚠️ Every New App User can only enjoy once
+                        </h3>
+                        <p class="text-[#E4CF02] text-sm">
+                            1080p Dual Camera Car Dash Cam with IR Night Vision, Loop Recording, Wide Angle Lens and 3.16 Inch IPS Screen
+                        </p>
+                    </div>
+                    <div class="flex items-center w-full">
+                    <button class="bg-[#FE7701] w-full mt-3 mb-2     lg:mb-10 py-2 lg:py-4 px-6 lg:px-10 text-white rounded-full   text-lg lg:text-2xl hover:opacity-80 duration-300">GET IT NOW</button>
+                </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+      <!-- Swiper JS -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+var swiper = new Swiper('.swiper-container', {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  loop: true, // Enable infinite loop
+  pagination: {
+    el: '.swiper-pagination', // Target the pagination element
+    clickable: true,          // Make the dots clickable
+  },
+  autoplay: {
+    delay: 2000, // Slide will change every 3 seconds
+    disableOnInteraction: false, // Autoplay will not stop after user interaction
+  },
+});
+
+
+    </script>
+</body>
+
+</html>
